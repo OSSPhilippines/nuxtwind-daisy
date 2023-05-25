@@ -23,7 +23,7 @@
   <generic-panel>
     <div class="flex flex-col">
       <h1 class="text-5xl mb-5">Getting Started</h1>
-      <p class="text-lg">Read <a href="https://github.com/ossphilippines/nuxtwind-daisy">the documentation</a> on how to start quickly.</p>
+      <p class="text-lg">Read <a href="https://github.com/OSSPhilippines/nuxtwind-daisy#readme">the documentation</a> on how to start quickly.</p>
     </div>
   </generic-panel>
 
