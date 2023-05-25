@@ -58,7 +58,7 @@ export default {
       localStorage.setItem('daisyui-theme', value);
     });
     onMounted(() => {
-      theme.value = localStorage.getItem('daisyui-theme') || 'luxury';
+      theme.value = localStorage.getItem('daisyui-theme') || 'dark';
     });
     return {
       theme,
