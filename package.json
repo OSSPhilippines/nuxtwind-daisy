@@ -1,0 +1,53 @@
+{
+  "name": "nuxtwind-daisy",
+  "version": "1.0.0",
+  "main": ".eslintrc.js",
+  "description": "Nuxtwind Daisy is a starter template for Nuxt.js 3 + Tailwind CSS + Daisy UI with additional installed setup for custom font, icons, animation, and more.",
+  "productName": "Nuxtwind Daisy 🟢💨🌼",
+  "author": "Joff Tiquez <jofftiquez@gmail.com>",
+  "scripts": {
+    "lint": "eslint --ext .js,.vue ./ --fix",
+    "build": "nuxt build",
+    "postbuild": "cd .output/server && rimraf node_modules && yarn && cd .. && yarn rename-server",
+    "rename-server": "node scripts/rename-server.js",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "serve": "firebase emulators:start",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.13.14",
+    "@nuxt/devtools": "^0.5.3",
+    "@nuxtjs/tailwindcss": "^6.7.0",
+    "@tailwindcss/container-queries": "^0.1.0",
+    "@tailwindcss/forms": "^0.5.3",
+    "eslint": "^8.29.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "eslint-webpack-plugin": "^3.1.1",
+    "nuxt": "^3.5.1",
+    "nuxt-gtag": "^0.5.7",
+    "nuxt-headlessui": "^1.1.1",
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "aos": "^3.0.0-beta.6",
+    "axios": "^1.4.0",
+    "daisyui": "^2.51.6",
+    "postcss-custom-properties": "^13.1.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ossphilippines/nuxtwind-daisy.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ossphilippines/nuxtwind-daisy/issues"
+  },
+  "homepage": "https://github.com/ossphilippines/nuxtwind-daisy#readme"
+}
