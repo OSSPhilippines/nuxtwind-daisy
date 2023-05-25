@@ -19,7 +19,7 @@ export default defineNuxtConfig({
   },
 
   gtag: {
-    id: '', // TODO: Add your google analytics 4 tag here
+    id: 'G-M1KERXTK1H', // TODO: Add your google analytics 4 tag here
   },
 
   srcDir: './src',
