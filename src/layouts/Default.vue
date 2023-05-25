@@ -2,13 +2,13 @@
   <div :data-theme="theme">
     <div class="navbar fixed bg-base-100 z-40 shadow-sm">
       <div class="navbar-start">
-        <a class="btn btn-ghost text-xl">Nuxtwind Daisy</a>
+        <a class="btn btn-ghost md:text-xl">Nuxtwind Daisy</a>
       </div>
       <div class="navbar-center hidden lg:flex">
         <!-- TODO: You can add menu here -->
       </div>
       <div class="navbar-end">
-        <select v-model="theme" class="select select-primary w-full max-w-xs">
+        <select v-model="theme" class="select select-primary md:w-full md:max-w-xs">
           <option disabled selected>Select Theme</option>
           <option v-for="theme in themes" :value="theme" :key="theme">
             <span class="uppercase">{{ theme }}</span>
@@ -19,8 +19,8 @@
     <slot />
     <footer class="footer footer-center p-10 bg-base-50">
       <div>
-        <h1 class="text-3xl font-bold">Nuxtwind Daisy</h1>
-        <p class="font-bold">
+        <h1 class="text-2xl md:text-3xl font-bold">Nuxtwind Daisy</h1>
+        <p class="md:font-bold">
           Create beautiful and fast websites without the tedious setup
         </p>
         <p>Copyright © {{new Date().getFullYear()}} - All right reserved</p>

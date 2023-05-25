@@ -3,13 +3,13 @@
   <div class="hero min-h-screen bg-base-200">
     <div class="hero-content text-center">
       <div class="max-w-xl">
-        <h1 data-aos="fade-down" class="text-7xl font-bold mb-6">Nuxtwind Daisy</h1>
-        <p data-aos="fade-down" data-aos-delay="300" class="text-lg mb-6">Nuxtwind Daisy is a starter template project for Nuxt.js 3 + Tailwind CSS + Daisy UI with additional installed setup for custom font, icons, animation, and more.</p>
+        <h1 data-aos="fade-down" class="text-4xl md:text-7xl font-bold mb-6">Nuxtwind Daisy</h1>
+        <p data-aos="fade-down" data-aos-delay="300" class="md:text-lg mb-6">Nuxtwind Daisy is a starter template project for Nuxt.js 3 + Tailwind CSS + Daisy UI with additional installed setup for custom font, icons, animation, and more.</p>
         <div class="flex justify-center space-x-5">
           <a
             data-aos="fade-down"
             data-aos-delay="600"
-            class="btn btn-primary"
+            class="btn btn-sm md:btn-md btn-primary"
             href="https://github.com/OSSPhilippines/nuxtwind-daisy/fork"
             target="_blank"
           >
@@ -18,7 +18,7 @@
           <a
             data-aos="fade-down"
             data-aos-delay="600"
-            class="btn btn-primary btn-outline"
+            class="btn btn-sm md:btn-md btn-primary btn-outline"
             href="https://github.com/OSSPhilippines/nuxtwind-daisy"
             target="_blank"
           >
@@ -31,31 +31,31 @@
 
   <generic-panel>
     <div class="flex flex-col">
-      <h1 class="text-5xl mb-5">Introduction</h1>
-      <p class="text-lg">Create beautiful and fast websites without worrying about the tedious setup. Just fork this repository and start hacking away!</p>
+      <h1 class="text-3xl md:text-5xl mb-5">Introduction</h1>
+      <p class="md:text-lg">Create beautiful and fast websites without worrying about the tedious setup. Just fork this repository and start hacking away!</p>
     </div>
   </generic-panel>
 
   <generic-panel>
     <div class="flex flex-col">
-      <h1 class="text-5xl mb-5">Getting Started</h1>
-      <p class="text-lg">Read <a href="https://github.com/OSSPhilippines/nuxtwind-daisy#readme" class="text-primary">the documentation</a> on how to start quickly.</p>
+      <h1 class="text-3xl md:text-5xl mb-5">Getting Started</h1>
+      <p class="md:text-lg">Read <a href="https://github.com/OSSPhilippines/nuxtwind-daisy#readme" class="text-primary">the documentation</a> on how to start quickly.</p>
     </div>
   </generic-panel>
 
   <generic-panel>
     <div class="flex flex-col">
-      <h1 class="text-5xl mb-5">Features</h1>
-      <p class="text-lg">See what you can do below. Basically, every basic thing that you need is already included in this starter template project. From custom font, icons, animations, and more.</p>
+      <h1 class="text-3xl md:text-5xl mb-5">Features</h1>
+      <p class="md:text-lg">See what you can do below. Basically, every basic thing that you need is already included in this starter template project. From custom font, icons, animations, and more.</p>
     </div>
   </generic-panel>
 
   <generic-panel>
     <div class="flex flex-col mb-5">
-      <h1 class="text-3xl mb-5">Icons by Line Awesome <i class="las la-icons text-primary"></i></h1>
-      <p class="text-lg">Get more icons from the <a class="text-primary" href="https://icons8.com/line-awesome" target="_blank">Line Awesome documentation</a>.</p>
+      <h1 class="text-xl md:text-3xl mb-5">Icons by Line Awesome <i class="las la-icons text-primary"></i></h1>
+      <p class="md:text-lg">Get more icons from the <a class="text-primary" href="https://icons8.com/line-awesome" target="_blank">Line Awesome documentation</a>.</p>
     </div>
-    <div class="flex space-x-5">
+    <div class="flex space-x-5 overflow-scroll">
       <i class="las la-cat text-4xl"></i>
       <i class="las la-crow text-4xl"></i>
       <i class="las la-dog text-4xl"></i>
@@ -67,20 +67,21 @@
       <i class="las la-glass-whiskey text-4xl"></i>
       <i class="las la-home text-4xl"></i>
       <i class="las la-birthday-cake text-4xl"></i>
-      <a class="text-lg mt-1 text-primary" href="https://icons8.com/line-awesome" target="_blank">and more...</a>
+      <a class="hidden md:inline text-lg mt-1 text-primary" href="https://icons8.com/line-awesome" target="_blank">and more...</a>
     </div>
+    <a class="inline md:hidden text-lg mt-1 text-primary" href="https://icons8.com/line-awesome" target="_blank">and more...</a>
   </generic-panel>
 
   <generic-panel>
     <div class="flex flex-col mb-5">
-      <h1 class="text-3xl mb-5">Animation by AOS.js <i class="las la-running text-primary"></i></h1>
-      <p class="text-lg">Check <a class="text-primary" href="https://daisyui.com/" target="_blank">AOS.js documentation</a> for more animations.</p>
+      <h1 class="text-xl md:text-3xl mb-5">Animation by AOS.js <i class="las la-running text-primary"></i></h1>
+      <p class="md:text-lg">Check <a class="text-primary" href="https://daisyui.com/" target="_blank">AOS.js documentation</a> for more animations.</p>
     </div>
     <div class="flex flex-col">
-      <div class="flex space-x-5">
-        <div data-aos="fade-down" data-aos-delay="500" class="w-[200px] h-[200px] bg-green-200"></div>
-        <div data-aos="flip-left" data-aos-delay="1000" class="w-[200px] h-[200px] bg-red-200"></div>
-        <div data-aos="zoom-in" data-aos-delay="1500" class="w-[200px] h-[200px] bg-blue-200"></div>
+      <div class="flex flex-col md:flex-row space-y-5 md:space-y-0 md:space-x-5">
+        <div data-aos="fade-down" data-aos-delay="500" class="w-full md:w-[200px] h-[200px] bg-green-200"></div>
+        <div data-aos="flip-left" data-aos-delay="1000" class="w-full md:w-[200px] h-[200px] bg-red-200"></div>
+        <div data-aos="zoom-in" data-aos-delay="1500" class="w-full md:w-[200px] h-[200px] bg-blue-200"></div>
         <a class="text-lg mt-1 text-primary" href="https://michalsnik.github.io/aos/" target="_blank">more animations...</a>
       </div>
     </div>
@@ -88,12 +89,12 @@
 
   <generic-panel>
     <div class="flex flex-col mb-5">
-      <h1 class="text-3xl mb-5">UI Components by Daisy UI 🌼</h1>
-      <p class="text-lg">Learn more from the official <a class="text-primary" href="https://daisyui.com/" target="_blank">daisyUI documentation</a>.</p>
+      <h1 class="text-xl md:text-3xl mb-5">UI Components by Daisy UI 🌼</h1>
+      <p class="md:text-lg">Learn more from the official <a class="text-primary" href="https://daisyui.com/" target="_blank">daisyUI documentation</a>.</p>
     </div>
     <div class="flex flex-col">
-      <h1 class="text-xl mb-5 font-bold">Buttons</h1>
-      <div class="flex space-x-5">
+      <h1 class="md:text-xl mb-5 font-bold">Buttons</h1>
+      <div class="flex space-x-5 overflow-scroll">
         <button class="btn">Button</button>
         <button class="btn btn-primary">Button</button>
         <button class="btn btn-secondary">Button</button>
@@ -106,7 +107,7 @@
 
   <generic-panel>
     <div class="flex flex-col">
-      <h1 class="text-xl mb-5 font-bold">Alerts</h1>
+      <h1 class="md:text-xl mb-5 font-bold">Alerts</h1>
       <div class="space-y-5">
         <div class="alert shadow-lg">
           <div>
@@ -172,8 +173,8 @@
 
   <generic-panel>
     <div class="flex flex-col">
-      <h1 class="text-xl mb-5 font-bold">Badges</h1>
-      <div class="flex space-x-5">
+      <h1 class="md:text-xl mb-5 font-bold">Badges</h1>
+      <div class="flex space-x-5 overflow-scroll">
         <div class="badge badge-info gap-2">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-4 h-4 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
           info
@@ -196,7 +197,7 @@
 
   <generic-panel>
     <div class="flex flex-col">
-      <h1 class="text-xl mb-5 font-bold">Chat Bubbles</h1>
+      <h1 class="md:text-xl mb-5 font-bold">Chat Bubbles</h1>
       <div class="flex flex-col">
         <div class="chat chat-start">
           <div class="chat-bubble chat-bubble-primary">What kind of nonsense is this</div>
@@ -225,7 +226,7 @@
 
   <generic-panel>
     <div class="flex flex-col">
-      <h1 class="text-xl mb-5 font-bold">Checkboxes</h1>
+      <h1 class="md:text-xl mb-5 font-bold">Checkboxes</h1>
       <div class="flex flex-col">
         <div class="form-control w-52">
           <label class="cursor-pointer label">
@@ -251,7 +252,7 @@
 
   <generic-panel>
     <div class="flex flex-col">
-      <h1 class="text-xl mb-5 font-bold">Footers</h1>
+      <h1 class="md:text-xl mb-5 font-bold">Footers</h1>
       <footer class="footer p-10 bg-base-200 text-base-content">
         <div>
           <span class="footer-title">Services</span>
@@ -292,7 +293,7 @@
 
   <generic-panel>
     <div class="flex flex-col">
-      <h1 class="text-xl mb-5 font-bold">And more components...</h1>
+      <h1 class="md:text-xl mb-5 font-bold">And more components...</h1>
       <p>Visit the official <a href="https://daisyui.com/docs/install/" target="_blank" class="text-primary">Daisy UI documentation</a>.</p>
     </div>
   </generic-panel>
