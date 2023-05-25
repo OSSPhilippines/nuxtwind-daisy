@@ -7,4 +7,8 @@
 Nuxtwind Daisy is a starter template for Nuxt.js 3 + Tailwind CSS + Daisy UI with additional installed setup for custom font, icons, animation, and more.
 </p>
 
+# Getting Started Guide
+
+> Work in progress 🚧
+
 
