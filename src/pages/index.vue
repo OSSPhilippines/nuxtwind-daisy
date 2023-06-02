@@ -89,7 +89,7 @@
 
   <generic-panel>
     <div class="flex flex-col mb-5">
-      <h1 class="text-xl md:text-3xl mb-5">UI Components by Daisy UI 🌼</h1>
+      <h1 class="text-xl md:text-3xl mb-5">UI Components by Daisy UI 🌼 version 3</h1>
       <p class="md:text-lg">Learn more from the official <a class="text-primary" href="https://daisyui.com/" target="_blank">daisyUI documentation</a>.</p>
     </div>
     <div class="flex flex-col">
