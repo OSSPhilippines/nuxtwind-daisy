@@ -14,10 +14,6 @@ export default defineNuxtConfig({
     'nuxt-gtag',
   ],
 
-  nitro: {
-    preset: 'firebase',
-  },
-
   gtag: {
     id: 'G-M1KERXTK1H', // TODO: Add your google analytics 4 tag here
   },
