@@ -75,7 +75,7 @@
   <generic-panel>
     <div class="flex flex-col mb-5">
       <h1 class="text-xl md:text-3xl mb-5">Animation by AOS.js <i class="las la-running text-primary"></i></h1>
-      <p class="md:text-lg">Check <a class="text-primary" href="https://daisyui.com/" target="_blank">AOS.js documentation</a> for more animations.</p>
+      <p class="md:text-lg">Check <a class="text-primary" href="https://michalsnik.github.io/aos/" target="_blank">AOS.js documentation</a> for more animations.</p>
     </div>
     <div class="flex flex-col">
       <div class="flex flex-col md:flex-row space-y-5 md:space-y-0 md:space-x-5">
