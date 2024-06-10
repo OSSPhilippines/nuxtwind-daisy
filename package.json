@@ -29,7 +29,7 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-vue": "^9.19.2",
     "eslint-webpack-plugin": "^4.0.1",
-    "nuxt": "^3.9.1",
+    "nuxt": "^3.11.2",
     "nuxt-gtag": "^1.1.2",
     "nuxt-headlessui": "^1.1.5",
     "rimraf": "^5.0.5"
@@ -38,7 +38,7 @@
     "@tailwindcss/typography": "^0.5.10",
     "aos": "^3.0.0-beta.6",
     "axios": "^1.6.4",
-    "daisyui": "^4.5.0",
+    "daisyui": "^4.12.2",
     "postcss-custom-properties": "^13.3.4"
   },
   "repository": {
