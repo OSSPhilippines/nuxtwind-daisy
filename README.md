@@ -4,8 +4,16 @@
 
 <h1 align="center">Nuxtwind Daisy 🟢💨🌼</h1>
 <p style="text-align: center">
-Nuxtwind Daisy is a starter template for Nuxt.js 3 + Tailwind CSS + Daisy UI with additional installed setup for custom font, icons, animation, and more.
+Nuxtwind Daisy is a starter template for Nuxt 4 + Tailwind CSS 4 + DaisyUI 5 with additional installed setup for custom font, icons, animation, and more.
 </p>
+
+## Tech Stack
+
+- **Nuxt 4.1.2** - The Intuitive Vue Framework
+- **Tailwind CSS 4.1.13** - A utility-first CSS framework
+- **DaisyUI 5.1.13** - Tailwind CSS component library
+- **Vue 3.5** - Progressive JavaScript Framework
+- **pnpm** - Fast, disk space efficient package manager
 
 - [Showcase](#showcase)
 - [Getting Started Guide](#getting-started-guide)
@@ -18,9 +26,22 @@ Brag your modified version from this template. 💪
 
 # Getting Started Guide
 
+## Prerequisites
+
+- Node.js 20.x or higher
+- pnpm 10.x or higher (recommended) or npm/yarn
+
 ## Installation
 
-Nope. No installation needed.
+Clone the repository and install dependencies:
+
+```bash
+# Using pnpm (recommended)
+$ pnpm install
+
+# Or using npm
+$ npm install
+```
 
 ## Fork
 
@@ -38,28 +59,57 @@ I will assume that you already know the basic of nuxt.js. If not, you can check 
 
 Now that it's yours, you can make changes to it. Be creative you can start by removing the contents in the `pages/index.vue`. Feel free to utilize the `GenericPanel.vue` component as it adds a nice balance to the layout.
 
-## Preview
+## Development
 
-You can preview your build by running the `nuxt start` command.
+Start the development server on http://localhost:3000:
 
 ```bash
-# Preview your build
-$ nuxt start
+# Using pnpm
+$ pnpm dev
+
+# Or using npm
+$ npm run dev
+```
+
+## Preview
+
+Preview the production build locally:
+
+```bash
+# Using pnpm
+$ pnpm preview
+
+# Or using npm
+$ npm run preview
 ```
 
 ## Build
 
-You can choose to build it using the defaul strategy which is SSR, but you also have the option to generate static files so you can just upload your work in any static hosting service. The sample site of this repo is hosted in Vercel.
-
+You can choose to build it using the default strategy which is SSR, but you also have the option to generate static files so you can just upload your work in any static hosting service. The sample site of this repo is hosted in Vercel.
 
 ```bash
 # Build for production using SSR
-$ nuxt build
+$ pnpm build
+# or
+$ npm run build
 ```
 
 ```bash
 # Build for production and generate static files
-$ nuxt generate
+$ pnpm generate
+# or
+$ npm run generate
+```
+
+## Linting
+
+This project uses ESLint 9 with the new flat config format:
+
+```bash
+# Run ESLint
+$ pnpm lint
+# or
+$ npm run lint
 ```
 
 ## Deploy
