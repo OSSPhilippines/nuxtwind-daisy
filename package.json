@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.23.3",
-    "@nuxt/devtools": "^1.0.6",
+    "@nuxt/devtools": "^2.6.3",
     "@nuxtjs/tailwindcss": "^6.10.3",
     "@tailwindcss/container-queries": "^0.1.1",
     "@tailwindcss/forms": "^0.5.7",
@@ -29,8 +29,8 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-vue": "^9.19.2",
     "eslint-webpack-plugin": "^4.0.1",
-    "nuxt": "^3.11.2",
-    "nuxt-gtag": "^1.1.2",
+    "nuxt": "^4.1.2",
+    "nuxt-gtag": "^4.0.0",
     "nuxt-headlessui": "^1.1.5",
     "rimraf": "^5.0.5"
   },
