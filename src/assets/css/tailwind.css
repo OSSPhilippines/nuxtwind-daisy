@@ -2,6 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
 @import "tailwindcss";
 
+/* Theme configuration */
+@theme {
+  --color-primary: #843bd7;
+  --font-family-primary: 'Inter';
+}
+
+/* DaisyUI 5 plugin with all themes */
+@plugin "daisyui" {
+  themes: light --default, dark, cupcake, bumblebee, emerald, corporate,
+          synthwave, retro, cyberpunk, valentine, halloween, garden,
+          forest, aqua, lofi, pastel, fantasy, wireframe, black,
+          luxury, dracula, cmyk, autumn, business, acid, lemonade,
+          night, coffee, winter;
+}
+
 body {
   background-color: white;
   font-family: 'Inter', sans-serif;
