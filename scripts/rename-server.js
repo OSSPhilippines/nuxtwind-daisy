@@ -6,9 +6,7 @@
  * Because sometimes you want to upload more than one Nuxt app to Firebase Functions.
  */
 
-const nodeFs = require('node:fs');
-const readFile = nodeFs.readFile;
-const writeFileSync = nodeFs.writeFileSync;
+import { readFile, writeFileSync } from 'node:fs';
 const serverFunctionName = 'nuxtSSRHandler';
 
 readFile('.output/server/index.mjs', 'utf-8', (errRead, contents) => {

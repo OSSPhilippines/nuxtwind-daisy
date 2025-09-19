@@ -1,12 +1,13 @@
 {
   "name": "nuxtwind-daisy",
   "version": "1.0.0",
+  "type": "module",
   "main": ".eslintrc.js",
   "description": "Nuxtwind Daisy is a starter template for Nuxt.js 3 + Tailwind CSS + Daisy UI with additional installed setup for custom font, icons, animation, and more.",
   "productName": "Nuxtwind Daisy 🟢💨🌼",
   "author": "Joff Tiquez <jofftiquez@gmail.com>",
   "scripts": {
-    "lint": "eslint --ext .js,.vue ./ --fix",
+    "lint": "eslint . --fix",
     "build": "nuxt build",
     "postbuild": "cd .output/server && rimraf node_modules && pnpm install && cd .. && pnpm run rename-server",
     "rename-server": "node scripts/rename-server.js",
@@ -18,6 +19,7 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.28.4",
+    "@eslint/js": "^9.35.0",
     "@nuxt/devtools": "^2.6.3",
     "@tailwindcss/container-queries": "^0.1.1",
     "@tailwindcss/forms": "^0.5.10",
@@ -30,6 +32,7 @@
     "eslint-plugin-promise": "^7.2.1",
     "eslint-plugin-vue": "^10.4.0",
     "eslint-webpack-plugin": "^5.0.2",
+    "globals": "^16.4.0",
     "nuxt": "^4.1.2",
     "nuxt-gtag": "^4.0.0",
     "nuxt-headlessui": "^1.2.1",
