@@ -300,38 +300,26 @@
 
 </template>
 
-<script>
-import { useHead } from '#app';
-import { definePageMeta } from '#imports';
-import GenericPanel from '~/components/commons/GenericPanel';
+<script setup>
 import ogBanner from '../assets/images/nuxtwind-daisy-og-banner.jpg';
 
-export default {
-  components: {
-    GenericPanel,
-  },
-  setup () {
-    definePageMeta({
-      layout: 'default',
-    });
+definePageMeta({
+  layout: 'default',
+});
 
-    useHead({
-      title: 'Nuxtwind Daisy 🟢💨🌼',
-      description: 'Nuxtwind Daisy is a starter template for Nuxt.js 3 + Tailwind CSS + Daisy UI with additional installed setup for custom font, icons, animation, and more.',
-      link: [
-        { rel: 'icon', type: 'image/png', href: '/favicon.png' },
-      ],
-      meta: [
-        {
-          hid: 'og:image',
-          name: 'og:image',
-          property: 'og:image',
-          content: ogBanner,
-        },
-      ],
-    });
-
-    return {};
-  },
-};
+useHead({
+  title: 'Nuxtwind Daisy 🟢💨🌼',
+  description: 'Nuxtwind Daisy is a starter template for Nuxt.js 3 + Tailwind CSS + Daisy UI with additional installed setup for custom font, icons, animation, and more.',
+  link: [
+    { rel: 'icon', type: 'image/png', href: '/favicon.png' },
+  ],
+  meta: [
+    {
+      hid: 'og:image',
+      name: 'og:image',
+      property: 'og:image',
+      content: ogBanner,
+    },
+  ],
+});
 </script>

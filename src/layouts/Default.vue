@@ -42,8 +42,9 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import { ref, watch, onMounted } from 'vue';
+
 const THEMES = [
   'light',
   'dark',
@@ -75,19 +76,15 @@ const THEMES = [
   'coffee',
   'winter',
 ];
-export default {
-  setup () {
-    const theme = ref(null);
-    watch(theme, (value) => {
-      localStorage.setItem('daisyui-theme', value);
-    });
-    onMounted(() => {
-      theme.value = localStorage.getItem('daisyui-theme') || 'dark';
-    });
-    return {
-      theme,
-      themes: THEMES,
-    };
-  },
-};
+
+const theme = ref(null);
+const themes = THEMES;
+
+watch(theme, (value) => {
+  localStorage.setItem('daisyui-theme', value);
+});
+
+onMounted(() => {
+  theme.value = localStorage.getItem('daisyui-theme') || 'dark';
+});
 </script>
