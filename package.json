@@ -19,9 +19,9 @@
   "devDependencies": {
     "@babel/eslint-parser": "^7.23.3",
     "@nuxt/devtools": "^2.6.3",
-    "@nuxtjs/tailwindcss": "^6.10.3",
     "@tailwindcss/container-queries": "^0.1.1",
     "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/postcss": "^4.1.13",
     "eslint": "^8.56.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.29.1",
@@ -32,7 +32,8 @@
     "nuxt": "^4.1.2",
     "nuxt-gtag": "^4.0.0",
     "nuxt-headlessui": "^1.1.5",
-    "rimraf": "^5.0.5"
+    "rimraf": "^5.0.5",
+    "tailwindcss": "^4.1.13"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.10",

@@ -9,7 +9,6 @@ export default defineNuxtConfig({
   preset: 'node-server',
 
   modules: [
-    '@nuxtjs/tailwindcss',
     'nuxt-headlessui',
     'nuxt-gtag',
   ],
@@ -45,14 +44,13 @@ export default defineNuxtConfig({
     },
   },
 
-  tailwindcss: {
-    cssPath: '~/assets/css/tailwind.css',
-    configPath: 'tailwind.config',
-    exposeConfig: false,
-    exposeLevel: 2,
-    config: {},
-    injectPosition: 'first',
-    viewer: true,
+
+  css: ['~/assets/css/tailwind.css'],
+
+  postcss: {
+    plugins: {
+      '@tailwindcss/postcss': {},
+    },
   },
 
   headlessui: {
